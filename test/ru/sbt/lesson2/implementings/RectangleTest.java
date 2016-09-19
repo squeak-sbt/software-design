@@ -1,8 +1,6 @@
 package ru.sbt.lesson2.implementings;
 
 import org.junit.Test;
-import org.omg.CORBA.DoubleHolder;
-import org.w3c.dom.Document;
 
 import static org.junit.Assert.*;
 
@@ -15,7 +13,7 @@ public class RectangleTest {
 
     @Test
     public void calculatePerimetr() throws Exception {
-        assertEquals(22.0, rectangle.calculatePerimetr(), 0.1);
+        assertEquals(22.0, rectangle.calculatePerimeter(), 0.1);
     }
 
 }

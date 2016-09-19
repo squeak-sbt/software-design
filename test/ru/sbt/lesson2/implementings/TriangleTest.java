@@ -1,7 +1,6 @@
 package ru.sbt.lesson2.implementings;
 
 import org.junit.Test;
-import org.omg.CORBA.DoubleHolder;
 
 import static org.junit.Assert.*;
 
@@ -16,7 +15,7 @@ public class TriangleTest {
 
     @Test
     public void calculatePerimetr() throws Exception {
-        assertEquals(3.0, triangle.calculatePerimetr(), 0.1);
+        assertEquals(3.0, triangle.calculatePerimeter(), 0.1);
     }
 
 }

@@ -18,7 +18,7 @@ public class Triangle implements Figure {
     }
 
     @Override
-    public double calculatePerimetr() {
+    public double calculatePerimeter() {
         return a + b + c;
     }
 }

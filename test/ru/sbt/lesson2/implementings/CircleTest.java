@@ -12,7 +12,7 @@ public class CircleTest {
 
     @org.junit.Test
     public void calculatePerimetr() throws Exception {
-        assertEquals(12.56, circle.calculatePerimetr(), 0.1);
+        assertEquals(12.56, circle.calculatePerimeter(), 0.1);
     }
 
 }

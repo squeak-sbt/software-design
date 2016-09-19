@@ -15,7 +15,7 @@ public class Square implements Figure {
     }
 
     @Override
-    public double calculatePerimetr() {
+    public double calculatePerimeter() {
         return 4 * a;
     }
 }

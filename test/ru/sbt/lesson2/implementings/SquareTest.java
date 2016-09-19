@@ -13,7 +13,7 @@ public class SquareTest {
 
     @Test
     public void calculatePerimetr() throws Exception {
-        assertEquals(square.calculatePerimetr(), 4.0, 0.1);
+        assertEquals(square.calculatePerimeter(), 4.0, 0.1);
     }
 
 }

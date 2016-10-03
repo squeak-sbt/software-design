@@ -1,18 +1,22 @@
 package ru.sbt.lesson2.implementings;
 
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class CircleTest {
-    private static final Circle circle = new Circle(2.0);
-    @org.junit.Test
+    double n = 5;
+
+    Circle item = new Circle(n);
+    @Test
     public void calculateSquare() throws Exception {
-        assertEquals(12.56, circle.calculateSquare(), 0.1);
+        assertEquals(n*n*Math.PI, item.calculateSquare(), 0.00000001);
     }
 
-    @org.junit.Test
-    public void calculatePerimetr() throws Exception {
-        assertEquals(12.56, circle.calculatePerimeter(), 0.1);
+    @Test
+    public void calculatePerimeter() throws Exception {
+        assertEquals(2*n*Math.PI, item.calculatePerimeter(), 0.00000001);
+
     }
 
 }

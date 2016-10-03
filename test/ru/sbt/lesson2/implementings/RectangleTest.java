@@ -5,15 +5,17 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RectangleTest {
-    private final static Rectangle rectangle = new Rectangle(4, 7);
+
+    Rectangle item = new Rectangle(1,1);
+
     @Test
     public void calculateSquare() throws Exception {
-        assertEquals(28.0, rectangle.calculateSquare(), 0.1);
+        assertEquals(1,item.calculateSquare(), 0.00001);
     }
 
     @Test
-    public void calculatePerimetr() throws Exception {
-        assertEquals(22.0, rectangle.calculatePerimeter(), 0.1);
+    public void calculatePerimeter() throws Exception {
+        assertEquals(4,item.calculatePerimeter(),0.00001);
     }
 
 }
